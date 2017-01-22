@@ -1,0 +1,49 @@
+Developing Data Products Course Project Using mtcars 
+========================================================
+
+Peggy Lu  
+January 22, 2017
+
+========================================================
+
+Summary
+
+Based on the Motor Trend dataset (mtcars), the assignment is to create a Shiny application and deploy it on Rstudio's servers.
+
+
+Use Rstudio Presenter to prepare a reproducible pitch presentation about this application
+
+========================================================
+About the Data
+
+The data was extracted from the 1974 Motor Trend US magazine.  The mtcars dataset contains 32 observations with 11 variables. 
+
+```{r}
+str(mtcars)
+```
+  
+========================================================
+About the Application 
+
+There are two input parameters:
+- Horse Power slider 
+- Drop-down List for Number of cylinders
+
+There are 3 Output Tabs filtered by the input parameters
+- Data: Display the result set data in a tabular format
+- Plot:  Graph the relationship between weight and mpg 
+- Model:  Regression Model based on lm(mpg~am+qsec+vs)
+
+
+
+========================================================
+
+Links
+
+Source Code:  
+Github  
+
+The Shiny Application:    
+Link 2:  
+
+
