@@ -10,8 +10,8 @@ Summary
 
 Based on the Motor Trend dataset (mtcars), the assignment is to create a Shiny application with the following requirements:
   - some form of input widgets  
-  - perform operation in sever.R based on on the ui input  
-  - display reactive output from server calculation  
+  - perform operation in sever.R based on the ui.R input  
+  - display output from server calculation  
   - deploy it on Rstudio's servers  
 
 
@@ -44,9 +44,11 @@ There are 3 Output Tabs filtered by the input parameters
 
 Links
 
-Source Code:  
-https://github.com/lup104/DevDataProduct  
-
 The Shiny Application:    
 https://lup104.shinyapps.io/DevDataProduct/
+
+The Application Source Code (server.R and ui.R):  
+https://github.com/lup104/DevDataProduct  
+
+
 
