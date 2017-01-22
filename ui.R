@@ -27,7 +27,19 @@ shinyUI(fluidPage(
       tabsetPanel(type="tab", 
                 tabPanel("Data", tableOutput("data1")), 
                 tabPanel("Plot",  plotOutput("plot1")),
-                tabPanel("Model", verbatimTextOutput("fit"))
+                tabPanel("Model", verbatimTextOutput("fit")),
+                tabPanel("About", p("This application will display mtcars data based on the input parameters."),
+                                   p("Users may choose to specify the minimum Horse Power (default to 150) by using the slider, 
+                                    and choose the number of cylinders from the dropdown list (default to 8)"),
+                                   p("Three output tabs are available:" ),
+                                    p("-- The Data Tab: Display data in a table based on input parameters"),
+                                    p("-- The Plot Tab: Graph the relationship between weight and mpg based on the specified horse power and cylinders"),   
+                                    p("-- The Model Tab: Regression Model based on lm(mpg ~ am+qsec+vs) leveraging input parameters as criteria"
+                                      )
+                       
+                       
+                         )
+                                   
               )
     )
   )
